@@ -23,7 +23,7 @@ function NumberBackgroundClean() {
 
 function clickTest(){
     target = document.getElementById("n8");
-    if(target.className == "number") {
+    if(target.className == null || target.className == "number") {
       target.className = "active";
     }else {
       target.className = "number";
