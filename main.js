@@ -1,9 +1,22 @@
-function p_ChangeColor1() {
-    var p = document.getElementById('n1');
-    p.style.color = '#FFC9F4';
+
+
+function BackgroundChangeColor1() {
+    NumberBackgroundClean();
+    document.getElementById('n1').style.background = '#FFC9F4';
 }
 
-function p_ChangeColor2() {
-    var p = document.getElementById('n2');
-    p.style.color = '#ACEEFF';
+function BackgroundChangeColor2() {
+    NumberBackgroundClean();
+    document.getElementById('n2').style.background = '#ACEEFF';
+}
+
+function agree(){
+
+}
+
+function NumberBackgroundClean() {
+    var elements = document.getElementsByClassName('number');
+    for(i=0; i<elements.length; i++){
+        elements[i].style.backgroundColor = '#FFF';
+    }
 }
