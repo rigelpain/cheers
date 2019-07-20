@@ -20,3 +20,12 @@ function NumberBackgroundClean() {
         elements[i].style.backgroundColor = '#FFF';
     }
 }
+
+function clickTest(){
+    target = document.getElementById("n8");
+    if(target.className == "number") {
+      target.className = "active";
+    }else {
+      target.className = "number";
+    }
+}

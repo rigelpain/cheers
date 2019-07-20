@@ -8,8 +8,8 @@ html {
 }
 
 body{
-  width: 360px;
-  height: 810px;
+  width: 560px;
+  height: 1010px;
   margin: auto;
   text-align: center;
 }
@@ -18,13 +18,13 @@ h1 {
     width: 300px;
     height: 70px;
     margin:70px auto 40px auto;
-    font-size: 4em;
+    font-size: 3.5em;
     text-align: center;
     display:block;
 }
 
 p{
-  background: #FFF;
+
 }
 
 div{
@@ -34,15 +34,21 @@ div{
 div.dial{
     width: 230px;
     height: 80px;
-    margin: 10px auto 10px auto;
+    margin: 0px auto;
 }
 
+div#d1.dial{
+  margin-top: 10px
+}
 
+div#d3.dial{
+  margin-bottom: 10px
+}
 
 p.agree {
     width: 275px;
     height: 75px;
-    margin: 30px auto 30px auto;
+    margin: 50px auto 50px auto;
     border-radius: 37.5px;
     background: #fff;
     border: 1px solid #707070;
@@ -82,8 +88,30 @@ p.number {
     justify-content: center;
     /* 横方向中央揃え */
     float: left;
+    transition: 1s;
 }
 
-/*#n1, #n2, #n4, #n5, #n7, #n8{
+p#n8.active{
+    background: #FAA;
+}
+
+p.active{
+  width: 52px;
+  height: 51px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid #707070;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  /* 縦方向中央揃え（Safari用） */
+  align-items: center;
+  /* 縦方向中央揃え */
+  -webkit-justify-content: center;
+  /* 横方向中央揃え（Safari用） */
+  justify-content: center;
+  /* 横方向中央揃え */
   float: left;
-}*/
+  transition: 1s;
+}
