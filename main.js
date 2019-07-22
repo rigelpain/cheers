@@ -42,8 +42,8 @@ window.onload = function() {
         setTimeout("target.style.background = '#FFF';", 500);
     }
 
-    function DialClick(id) {
-        target = document.getElementById(id);
+    function DialClick(nx) {
+        target = document.getElementById(nx);
         target.className = "active";
         setTimeout("target.className = 'number'", 200);
     }

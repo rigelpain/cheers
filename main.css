@@ -91,13 +91,9 @@ p.active {
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
-    /* 縦方向中央揃え（Safari用） */
     align-items: center;
-    /* 縦方向中央揃え */
     -webkit-justify-content: center;
-    /* 横方向中央揃え（Safari用） */
     justify-content: center;
-    /* 横方向中央揃え */
     float: left;
     transition: 0.3s;
 }
@@ -119,7 +115,7 @@ p#n4.active {
 }
 
 p#n5.active {
-    background: rgb(245, 255, 150);
+    background: rgb(193, 255, 157);
 }
 
 p#n6.active {
