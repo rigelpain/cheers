@@ -34,11 +34,11 @@ div.dial {
 }
 
 div#d1.dial {
-    margin-top: 10px
+    padding-top: 10px
 }
 
 div#d3.dial {
-    margin-bottom: 10px
+    padding-bottom: 10px
 }
 
 p {
